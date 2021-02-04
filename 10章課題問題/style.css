@@ -22,10 +22,6 @@ main {
   background-color: #eeeeee;
 }
 
-.box-item:last-child {
-  margin-right: 0px;
-}
-
 .image1 {
   background-image: url(img/flow01.png);
   height: 150px;
@@ -82,6 +78,11 @@ footer {
 
   .box-item {
     width: 90%;
-    margin-bottom: 20px;
+    margin: 0 auto 20px;
+  }
+
+  .box-item :last-child {
+    margin-right: 20px;
+  }
   }
 }
